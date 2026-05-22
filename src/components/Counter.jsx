@@ -7,7 +7,7 @@ function Counter() {
   function increment() {
     if (count < 20) {
       setCount(count + multi*multi);
-    }
+    
 } 
 
   function decrement() {

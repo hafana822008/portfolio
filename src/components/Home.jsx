@@ -4,7 +4,7 @@ function Home() {
   return (
     <div
       id="home"
-      className="min-h-screen bg-gradient-to-br from-pink-100 via-fuchsia-100 to-purple-200 flex items-center justify-center px-6 py-10 overflow-hidden"
+     className="min-h-screen w-screen ... bg-gradient-to-br from-pink-100 via-fuchsia-100 to-purple-200 flex items-center justify-center overflow-hidden relative"
     >
 
       {/* BACKGROUND BLUR CIRCLES */}
@@ -13,7 +13,7 @@ function Home() {
       <div className="absolute bottom-10 right-10 w-80 h-80 bg-purple-300 rounded-full blur-3xl opacity-30 animate-pulse"></div>
 
       {/* MAIN CONTAINER */}
-      <div className="relative z-10 max-w-7xl w-full bg-white/40 backdrop-blur-2xl border border-white/30 shadow-[0_20px_80px_rgba(0,0,0,0.15)] rounded-[45px] p-8 md:p-16 flex flex-col-reverse lg:flex-row items-center gap-16">
+      <div className="relative z-10 w-full min-h-screen bg-white/40 backdrop-blur-2xl border border-white/30 shadow-[0_20px_80px_rgba(0,0,0,0.15)] flex flex-col-reverse lg:flex-row items-center gap-16 p-8 md:p-16">
 
         {/* LEFT CONTENT */}
         <div className="flex-1 text-center lg:text-left">
@@ -121,16 +121,18 @@ function Home() {
             />
 
             {/* GLASS EFFECT */}
-            <div className="
-              absolute
-              inset-0
-              rounded-[40px]
-              bg-gradient-to-t
-              from-pink-500/10
-              via-transparent
-              to-cyan-400/10
-              backdrop-blur-[2px]
-            "></div>
+            <div
+              className="
+                absolute
+                inset-0
+                rounded-[40px]
+                bg-gradient-to-t
+                from-pink-500/10
+                via-transparent
+                to-cyan-400/10
+                backdrop-blur-[2px]
+              "
+            ></div>
 
           </div>
 

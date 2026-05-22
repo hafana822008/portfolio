@@ -15,11 +15,11 @@ function Skills() {
   return (
     <div
       id="skills"
-      className="min-h-screen bg-gradient-to-r from-pink-100 via-purple-100 to-pink-200 flex items-center justify-center px-6 py-12"
+      className="min-h-screen w-full bg-gradient-to-r from-pink-100 via-purple-100 to-pink-200 flex items-center justify-center overflow-hidden"
     >
 
       {/* MAIN CARD */}
-      <div className="max-w-6xl w-full bg-white/70 backdrop-blur-lg rounded-[40px] shadow-2xl border border-white/40 p-10 md:p-16">
+      <div className="w-full min-h-screen bg-white/70 backdrop-blur-lg shadow-2xl border border-white/40 p-10 md:p-16">
 
         {/* TITLE */}
         <div className="text-center mb-14">

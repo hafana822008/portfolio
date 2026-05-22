@@ -4,7 +4,7 @@ function Education() {
   return (
     <div
       id="education"
-      className="min-h-screen bg-gradient-to-br from-pink-100 via-fuchsia-100 to-purple-200 flex items-center justify-center px-6 py-14 overflow-hidden relative"
+      className="min-h-screen w-full bg-gradient-to-br from-pink-100 via-fuchsia-100 to-purple-200 flex items-center justify-center overflow-hidden relative"
     >
 
       {/* BACKGROUND GLOW */}
@@ -13,7 +13,7 @@ function Education() {
       <div className="absolute bottom-10 right-10 w-80 h-80 bg-purple-400 rounded-full blur-[120px] opacity-30 animate-pulse"></div>
 
       {/* MAIN CONTAINER */}
-      <div className="relative z-10 max-w-6xl w-full bg-white/40 backdrop-blur-2xl border border-white/30 shadow-[0_20px_80px_rgba(0,0,0,0.15)] rounded-[45px] overflow-hidden flex flex-col lg:flex-row">
+      <div className="relative z-10 w-full min-h-screen bg-white/40 backdrop-blur-2xl border border-white/30 shadow-[0_20px_80px_rgba(0,0,0,0.15)] overflow-hidden flex flex-col lg:flex-row">
 
         {/* LEFT CONTENT */}
         <div className="flex-1 p-10 md:p-16 flex flex-col justify-center">
@@ -95,6 +95,13 @@ function Education() {
                 object-cover
 
                 shadow-[0_20px_80px_rgba(168,85,247,0.35)]
+
+                hover:scale-105
+                hover:-translate-y-3
+                hover:rotate-1
+
+                transition-all
+                duration-700
               "
             />
 

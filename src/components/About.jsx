@@ -4,11 +4,11 @@ function About() {
   return (
     <div
       id="about"
-      className="min-h-screen bg-gradient-to-r from-pink-100 via-purple-100 to-pink-200 flex items-center justify-center px-6 py-12"
+      className="min-h-screen w-screen bg-gradient-to-r from-pink-100 via-purple-100 to-pink-200 overflow-hidden"
     >
 
-      {/* MAIN CARD */}
-      <div className="max-w-6xl w-full bg-white/70 backdrop-blur-lg rounded-[40px] shadow-2xl border border-white/40 overflow-hidden flex flex-col lg:flex-row items-center">
+      {/* MAIN SECTION */}
+      <div className="w-screen min-h-screen bg-white/70 backdrop-blur-lg flex flex-col lg:flex-row items-center">
 
         {/* LEFT IMAGE SECTION */}
         <div className="flex-1 relative flex justify-center items-center p-10">
@@ -23,47 +23,48 @@ function About() {
           <div className="relative">
 
             {/* NEON BORDER */}
-            <div className="
-              absolute
-              -inset-2
-              rounded-[45px]
-              bg-gradient-to-r
-              from-cyan-400
-              via-purple-500
-              to-pink-500
-              blur-md
-              opacity-70
-            "></div>
+            <div
+              className="
+                absolute
+                -inset-2
+                rounded-[45px]
+                bg-gradient-to-r
+                from-cyan-400
+                via-purple-500
+                to-pink-500
+                blur-md
+                opacity-70
+              "
+            ></div>
 
-           <img
-  src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop"
-  alt="Developer Girl"
-  className="
-    relative
-    z-10
+            <img
+              src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop"
+              alt="Developer Girl"
+              className="
+                relative
+                z-10
 
-    w-[420px]
-    md:w-[550px]
-    lg:w-[650px]
+                w-[420px]
+                md:w-[550px]
+                lg:w-[650px]
 
-    rounded-[40px]
+                rounded-[40px]
 
-    object-cover
+                object-cover
 
-    border-[5px]
-    border-white/40
+                border-[5px]
+                border-white/40
 
-    shadow-[0_20px_100px_rgba(59,130,246,0.4)]
+                shadow-[0_20px_100px_rgba(59,130,246,0.4)]
 
-    hover:scale-105
-    hover:rotate-1
-    hover:-translate-y-4
+                hover:scale-105
+                hover:rotate-1
+                hover:-translate-y-4
 
-    transition-all
-    duration-700
-  "
-/>
-
+                transition-all
+                duration-700
+              "
+            />
           </div>
 
         </div>

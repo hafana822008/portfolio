@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="min-h-screen bg-gradient-to-br from-pink-100 via-fuchsia-100 to-purple-200 flex items-center justify-center px-6 py-12 overflow-hidden relative"
+      className="min-h-screen w-full bg-gradient-to-br from-pink-100 via-fuchsia-100 to-purple-200 flex items-center justify-center overflow-hidden relative"
     >
 
       {/* BACKGROUND GLOW */}
@@ -13,7 +13,7 @@ function Contact() {
       <div className="absolute bottom-10 right-10 w-80 h-80 bg-purple-400 rounded-full blur-[120px] opacity-30 animate-pulse"></div>
 
       {/* MAIN CARD */}
-      <div className="relative z-10 w-full max-w-5xl bg-white/40 backdrop-blur-2xl border border-white/30 shadow-[0_20px_80px_rgba(0,0,0,0.15)] rounded-[40px] overflow-hidden flex flex-col lg:flex-row">
+      <div className="relative z-10 w-full min-h-screen bg-white/40 backdrop-blur-2xl border border-white/30 shadow-[0_20px_80px_rgba(0,0,0,0.15)] overflow-hidden flex flex-col lg:flex-row">
 
         {/* LEFT SIDE */}
         <div className="flex-1 p-10 md:p-16 flex flex-col justify-center">
@@ -47,7 +47,7 @@ function Contact() {
               </p>
 
               <p className="text-gray-700 text-lg">
-                Hafanaafu@gmail.com
+                hafanaafuu@gmail.com
               </p>
 
             </div>
@@ -60,7 +60,7 @@ function Contact() {
               </p>
 
               <p className="text-gray-700 text-lg">
-                +91 900078789
+                +91 6235569194
               </p>
 
             </div>
